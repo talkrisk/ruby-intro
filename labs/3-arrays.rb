@@ -11,6 +11,27 @@
 # sort the result (alphabetically), and write it to the screen.
 # If the two lists contain the same item, only show it once!
 # Lastly, display each item in the list prepended with "buy ".
+bens_list = ["diapers", "wipes", "bath toys", "toilet paper"]
+brians_list = ["beer", "toilet paper", "tacos"]
+#puts bens_list.inspect
+
+combined_list = bens_list + brians_list
+#puts combined_list.inspect 
+
+# sort alphabetically
+sorted_list = combined_list.sort
+puts sorted_list.inspect
+
+#remove dups from list
+
+unique_list = sorted_list.uniq
+puts "buy #{unique_list[0]}"
+puts "buy #{unique_list[1]}"
+puts "buy #{unique_list[2]}"
+puts "buy #{unique_list[3]}"
+puts "buy #{unique_list[4]}"
+puts "buy #{unique_list[5]}"
+
 
 # HINTS
 # Learn to read the documentation!
