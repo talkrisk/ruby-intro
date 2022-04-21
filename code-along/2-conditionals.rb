@@ -24,7 +24,27 @@ if 3 == 2
 
 end
 # If/Else Conditional Logic
+your_team_score = 105
+other_team_score = 105
+if your_team_score > other_team_score
+    puts "yay, you won!"
+elsif your_team_score == other_team_score
+    puts "time for OT"
+else
+    puts "Booo!"
 
+end
 # Elsif Conditional Logic
 
 # Combining Expressions
+
+username = "sam"
+real_username = "sam"
+password = "Gerry"
+real_password = "Gerry"
+if username == real_username && password == real_password
+    puts "logged in!"
+elsif username == real username && password ! == real_password
+    puts "Wrong Password"
+else puts "try again"
+end
